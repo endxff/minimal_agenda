@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+body {
+    background-color: #E6E6E6;
+    padding-top: 100px;
+}
+
+.container {
+    max-width: 580px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #E6E6E6;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 30px 50px 200px #0000009f;
+}
+
+header {
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: left;
+    margin-left: 10%;
+    align-items: center;
+}
+
+header img {
+    height: 50px;
+}
+
+h1 {
+    color: #242c3b;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: bold;
+    border-bottom: 2px solid rgba(50, 50, 50, 0.1);
+    text-align: center;
+    padding: 10px;
+}
+
+form {
+    text-align: center;
+    display: flex;
+    max-width: 960px;
+    width: 100%;
+    margin: 30px 0 30px 0;
+}
+
+form input {
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid rgba(50, 50, 50, 0.2);
+    border-left: 2px solid rgba(50, 50, 50, 0.2);
+    padding: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.add-botao {
+    background-color: #242c3b;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    color: #E6E6E6;
+    margin-left: 10%;
+    border: none;
+    font-weight: lighter;
+    cursor: pointer;
+    
+}
+
+.add-botao:hover {
+    background-color: #576a8e;
+}
+
+
+table {
+    color: #242c3b;
+    text-align: center;
+    max-width: 580px;
+    width: 100%;
+    padding: 10px;
+}
+
+button {
+    border: none;
+}
+
+table img {
+    height: 30px;
+    padding: 5px;
+}
+
+.cBorda {
+    border-right: 2px solid #242c3b49;
+}
+
+footer {
+    text-align: center;
+    margin: 50px 0 0 0;
+    font-size: 13px;
+}
